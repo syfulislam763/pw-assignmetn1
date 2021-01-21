@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+}
+.f-size1{
+    font-size:60px;
+}
+.f-size2{
+    font-size:45px;
+}
+.c-orange{
+    color: #FF8367;
+}
+
+.c-white{
+    color: white;
+}
+.c-gray{
+    color: gray;
+    font-size:30px;
+}
+
+.padding{
+    padding: 30px 0px 30px 0px;
+}
+
+.card-h{
+    padding-top: 0px;
+}
+.card-p{
+    padding: 10px 0px 30px 0px;
+}
+
+.img-p{
+    padding: 10px;
+}
+
+.buttons{
+    padding: 20px 45px;
+    border:none;
+    border-radius:8px;
+    opacity: .7;
+    background-image: linear-gradient(90deg, orange, red);
+}
+
+.buttons:hover{
+    opacity:1;
+}
+
+
+.section1{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.navbar{
+    display:flex;
+    justify-content: flex-end;
+    margin: 35px 0px 0px 0px;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+    font-size: 18px;
+}
+.user-information{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left{
+    flex:45%;
+}
+.right{
+    flex:45%;
+}
+.left img{
+    width:90%;
+}
+.right img{
+    width:90%;
+}
+.text-div-mt{
+    margin-top: 150px;
+}
+
+.img-div-mt{
+    margin-top:100px;
+}
+
+
+
+
+
+.section2{
+    text-align: center;
+    min-height: 500px;
+    background: #F8F9FC;
+    margin-bottom: 100px;
+}
+
+.section2 h1{
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+
+.projects div{
+    margin-right: 35px;
+    background-color:#FFFFFF;
+    height:auto;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 23px 23px 34px 5px rgb(238, 233, 233);
+}
+
+.img-div{
+    width:300px;
+    height: 300px;
+}
+
+.img-div img{
+    width:100%;
+}
+.projects:last-of-type{
+    margin-right: 0px;
+}
+
+
+.section3{
+    height:300px;
+    width:65%;
+    background-image: url('../images/Group_33094_1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+.chat-div{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height: 200px;
+}
+
+.footer{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.icons{
+    display: flex;
+    justify-content:center;
+}
+
+.icons img{
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+
+.opacity{
+    opacity: .7;
+}
